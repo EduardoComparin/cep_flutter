@@ -18,7 +18,7 @@ Certifique-se de definir suas dependências no arquivo `pubspec.yaml` antes de e
 flutter pub get
 ```
 
-- Criação do banco em : ![back4app](https://www.back4app.com/) com os seguintes campos:
+- Criação do banco em : https://www.back4app.com com os seguintes campos:
 
 - Tabela "cep"
  String "objectId" 
