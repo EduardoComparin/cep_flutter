@@ -18,19 +18,22 @@ Certifique-se de definir suas dependências no arquivo `pubspec.yaml` antes de e
 flutter pub get
 ```
 
-OBS: você deve fornecer um arquivo `.env` na pasta `assets/` para configurar as chaves de API necessárias.
-Banco foi criado no ![back4app](https://parseapi.back4app.com) com os seguintes campos:
+- Criação do banco em : ![back4app](https://www.back4app.com/) com os seguintes campos:
 
-# Tabela "cep"
-## String "objectId" 
-## String "cep"
-## String "logradouro"
-## String "complemento"
-## String "bairro"
-## String "localidade"
-## String "uf"
-## String ibge
-## String ddd
+- Tabela "cep"
+ String "objectId" 
+ String "cep"
+ String "logradouro"
+ String "complemento"
+ String "bairro"
+ String "localidade"
+ String "uf"
+ String ibge
+ String ddd
+
+ - Após a criação do banco você deve fornecer um arquivo `.env` na pasta `assets/` para configurar as chaves de API necessárias.
+X-Parse-Application-Id
+X-Parse-REST-API-Key
 
 ## Dependências Principais
 
